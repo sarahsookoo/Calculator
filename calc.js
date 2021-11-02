@@ -1,8 +1,7 @@
 var first_num = "";
 var operation = "";
 var second_num = "";
-var expression = first_num + operation + second_num;
-
+var answer;
 
 //if get name of button click = 1 and operation = "" then first num =+ 1 (do for all numbers)
 //if get name of button click = +|-|*|/| then operation = +|-|*|/|
@@ -140,7 +139,6 @@ function point(){
     }
 }
 
-
 function plus(){
     operation = "+";
     document.getElementById("operation").innerHTML = operation;
@@ -160,6 +158,30 @@ function multiply(){
 function divide(){
     operation = "/";
     document.getElementById("operation").innerHTML = operation;
+}
+
+function result(){
+    var first = parseInt(first_num);
+    var second = parseInt(second_num);
+    if (operation == "+"){
+        answer = first + second;
+        document.getElementById("answer").innerHTML = " = " + answer;
+    }
+    else if (operation == "-"){
+        answer = first - second;
+        document.getElementById("answer").innerHTML = " = " + answer;
+    }
+    else if (operation == "*"){
+        answer = first * second;
+        document.getElementById("answer").innerHTML = " = " + answer;
+    }
+    //if (operation == "/"){
+    else{
+        answer = first / second;
+        document.getElementById("answer").innerHTML = " = " + answer;
+    }
+    //if operation = +, then first num + second num (do for all)
+    //put answer in div box
 }
 
 //store 2 numbers, get operation, solve
@@ -206,9 +228,6 @@ if (document.getElementById("1")){
 
 //}
 
-// function result(){
-//     //if operation = +, then first num + second num (do for all)
-//     //put answer in div box
-// }
+
 
 

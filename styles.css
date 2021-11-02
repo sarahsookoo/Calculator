@@ -17,6 +17,10 @@
     background-color: rgb(255, 210, 128);
 }
 
+#enter{
+    background-color: palegreen;
+}
+
 p {
     margin: 0;
     display:inline; /* makes p tags appear next to each other */
@@ -33,7 +37,19 @@ p {
 
   #boxnum{
       padding-left: 1%;
-      padding-top: 2.5%;
+      padding-top: 1%;
       padding-bottom: 2.5%;
       padding-right: 1%;
+      border-style: inset; 
+      width: 3in; 
+      height:3in; 
+      margin: auto;
+  }
+
+  #expression{
+    border-style: inset; 
+    width: 3in; 
+    height:.5in; 
+    margin: auto; 
+    margin-bottom: 5%;
   }
