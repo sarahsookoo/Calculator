@@ -1,9 +1,39 @@
+.button{
+    font-size: 25px;
+    margin-top: 2% ;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    /* vertical-align: bottom; */
+}
+
 #numbers{
+    /*float: left;*/
     background-color: bisque;
+}
+
+#operations{
+    background-color: rgb(255, 210, 128);
 }
 
 p {
     margin: 0;
     display:inline; /* makes p tags appear next to each other */
-    /* float:left; */
+    font-size: 25px;
    }
+
+/* .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  } */
+
+  #boxnum{
+      padding-left: 1%;
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+      padding-right: 1%;
+  }
