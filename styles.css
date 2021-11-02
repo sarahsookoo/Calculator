@@ -10,15 +10,15 @@
 
 #numbers{
     /*float: left;*/
-    background-color: bisque;
+    background-color: #e3e0cc
 }
 
 #operations{
-    background-color: rgb(255, 210, 128);
+    background-color: #9fa9a3;
 }
 
 #enter{
-    background-color: palegreen;
+    background-color: #c5d5c5
 }
 
 p {
@@ -44,6 +44,7 @@ p {
       width: 3in; 
       height:3in; 
       margin: auto;
+      background-color: #d8d4d4;
   }
 
   #expression{
@@ -52,4 +53,6 @@ p {
     height:.5in; 
     margin: auto; 
     margin-bottom: 5%;
+    background-color: #f0f0f0;
+
   }
