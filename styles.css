@@ -1,3 +1,9 @@
 #numbers{
     background-color: bisque;
 }
+
+p {
+    margin: 0;
+    display:inline; /* makes p tags appear next to each other */
+    /* float:left; */
+   }

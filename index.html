@@ -10,24 +10,32 @@
     <script src="calc.js" type="text/javascript"> </script>
 
     <body style="text-align: center;">
-        <input type="text" id="box" value="Enter expression">
+        <!-- <input type="text" id="box" value="Enter expression">
         <input type="button" id="enter" class="button" onclick="result()" value="Enter">
+        <br> <br> -->
+        <h2> Simple Calculator</h2>
+        <input type="button" id="numbers" class="button" onclick="display0();" value="0">
+        <input type="button" id="numbers" class="button" name="1" onclick="display1()" value="1">
+        <input type="button" id="numbers" class="button" name="2" onclick="display()" value="2">
+        <input type="button" id="numbers" class="button" name="3" onclick="display()" value="3">
+        <input type="button" id="numbers" class="button" name="4" onclick="display()" value="4">
+        <input type="button" id="numbers" class="button" name="5" onclick="display()" value="5">
+        <input type="button" id="numbers" class="button" name="6" onclick="display()" value="6">
+        <input type="button" id="numbers" class="button" name="7" onclick="display()" value="7">
+        <input type="button" id="numbers" class="button" name="8" onclick="display()" value="8">
+        <input type="button" id="numbers" class="button" name="9" onclick="display()" value="9">
         <br> <br>
-        <input type="button" id="numbers" class="button" onclick="display()" value="0">
-        <input type="button" id="numbers" class="button" onclick="display()" value="1">
-        <input type="button" id="numbers" class="button" onclick="display()" value="2">
-        <input type="button" id="numbers" class="button" onclick="display()" value="3">
-        <input type="button" id="numbers" class="button" onclick="display()" value="4">
-        <input type="button" id="numbers" class="button" onclick="display()" value="5">
-        <input type="button" id="numbers" class="button" onclick="display()" value="6">
-        <input type="button" id="numbers" class="button" onclick="display()" value="7">
-        <input type="button" id="numbers" class="button" onclick="display()" value="8">
-        <input type="button" id="numbers" class="button" onclick="display()" value="9">
+        <input type="button" id="operations" class="button" onclick="display()" value="+">
+        <input type="button" id="operations" class="button" onclick="display()" value="-">
+        <input type="button" id="operations" class="button" onclick="display()" value="*">
+        <input type="button" id="operations" class="button" onclick="display()" value="/">
         <br> <br>
-        <input type="button" id="oeprations" class="button" onclick="display()" value="+">
-        <input type="button" id="oeprations" class="button" onclick="display()" value="-">
-        <input type="button" id="oeprations" class="button" onclick="display()" value="*">
-        <input type="button" id="oeprations" class="button" onclick="display()" value="/">
+        <!-- to center a div: margin:auto -->
+        <div style="border-style: inset; width: 3in; height:.5in; margin: auto;" id="expression" > 
+        <p id="first"> </p>  
+        <p id="oper"> </p>
+        <p id="second"> </p>
+        </div>
         <br> <br>
         <input type="button" id="enter" class="button" onclick="result()" value="Enter">
 
